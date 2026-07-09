@@ -1,0 +1,104 @@
+[
+  {
+    "file": "assets/apt-kitchen.webp",
+    "title": "Empty apartment in Berlin with fitted kitchen, chair and plant",
+    "source": "https://commons.wikimedia.org/wiki/File:Empty_apartment_in_Berlin_with_fitted_kitchen,_chair_and_plant.jpg",
+    "license": "CC0"
+  },
+  {
+    "file": "assets/apt-room.webp",
+    "title": "Modern living room with stylish furniture",
+    "source": "https://commons.wikimedia.org/wiki/File:Modern_living_room_with_stylish_furniture_and_a_view_of_the_outdoors_in_a_cozy_apartment_setting.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "file": "assets/apt-bedroom.webp",
+    "title": "Hotel Room with queen size bed",
+    "source": "https://commons.wikimedia.org/wiki/File:Hotel_Room_with_queen_size_bed.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "file": "assets/route-hermitage.webp",
+    "title": "Hermitage Museum - Exterior view",
+    "source": "https://commons.wikimedia.org/wiki/File:Hermitage_Museum_-_Exterior_view_1.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "file": "assets/route-interior.webp",
+    "title": "Interiors of the Yusupov Palace on Moika",
+    "source": "https://commons.wikimedia.org/wiki/File:20230520_Interiors_of_the_Yusupov_Palace_on_Moika_236.jpg",
+    "license": "CC BY 4.0"
+  },
+  {
+    "file": "assets/route-strelna.webp",
+    "title": "Konstantinovsky Palace, Strelna",
+    "source": "https://commons.wikimedia.org/wiki/File:8141.3._Strelna._Konstantinovsky_Palace.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "file": "assets/route-pushkin.webp",
+    "title": "Catherine Palace in Tsarskoe Selo",
+    "source": "https://commons.wikimedia.org/wiki/File:Catherine_Palace_in_Tsarskoe_Selo.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "file": "assets/route-pavlovsk.webp",
+    "title": "Pavlovsk Palace",
+    "source": "https://commons.wikimedia.org/wiki/File:Pavlovsk_Palace-p1030787.jpg",
+    "license": "CC BY-SA 2.5"
+  },
+  {
+    "file": "assets/route-palace.webp",
+    "title": "Mausoleum to Husband-Benefactor in Pavlovsk Park",
+    "source": "https://commons.wikimedia.org/wiki/File:Mausoleum_to_Husband-Benefactor_in_Pavlovsk_Park_01.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "file": "assets/route-peterhof.webp",
+    "title": "Samson fountain in Peterhof",
+    "source": "https://commons.wikimedia.org/wiki/File:Samson_fountain_in_Peterhof_02.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "file": "assets/route-lomonosov.webp",
+    "title": "Menshikovsky Palace in Oranienbaum",
+    "source": "https://commons.wikimedia.org/wiki/File:Menshikovsky_Palace_in_Oranienbaum_01.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "file": "assets/route-harbor.webp",
+    "title": "Peter III Palace in Oranienbaum",
+    "source": "https://commons.wikimedia.org/wiki/File:Peter_III_Palace_in_Oranienbaum.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "file": "assets/route-gatchina.webp",
+    "title": "Gatchina Grand Palace",
+    "source": "https://commons.wikimedia.org/wiki/File:Gatchina._Grand_Palace..JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "file": "assets/route-kronstadt-cathedral.webp",
+    "title": "Naval Cathedral of Saint Nicholas in Kronstadt",
+    "source": "https://commons.wikimedia.org/wiki/File:Naval_Cathedral_of_St_Nicholas_in_Kronstadt_01.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "file": "assets/route-kronstadt-fort.webp",
+    "title": "Fort Alexander I near Kronstadt",
+    "source": "https://commons.wikimedia.org/wiki/File:RUS-2016-Aerial-SPB-Forts_of_Kronstadt_(Fort_Alexander_I).jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "file": "assets/custom-route.webp",
+    "title": "Palace Bridge, St. Petersburg",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint_Petersburg_Palace_Bridge,_St._Petersburg_(37931957696).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "file": "assets/night-spb.webp",
+    "title": "Saint Petersburg view to Palace Bridge at night",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint_Petersburg._View_to_Palace_Bridge_at_night_(1).jpg",
+    "license": "CC BY-SA 4.0"
+  }
+]

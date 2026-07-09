@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>АвтоТурСПб - индивидуальные маршруты по Санкт-Петербургу с водителем</title>
+  <meta name="description" content="Индивидуальные маршруты по Санкт-Петербургу и Ленинградской области на Volkswagen Polo с персональным водителем, апартаментами и трансфером.">
+  <meta name="keywords" content="АвтоТурСПб, маршруты Санкт-Петербург, автомобиль с водителем СПб, Volkswagen Polo, трансфер СПб, аренда авто с водителем">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#082746">
+  <link rel="icon" href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Crect width="64" height="64" rx="10" fill="%23082746"/%3E%3Cpath d="M12 45c12 5 28 5 40 0M31 11v34M31 13 16 43h15M34 16l15 27H34" fill="none" stroke="%23f2d19b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E'>
+  <link rel="canonical" href="./">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="АвтоТурСПб - маршруты на автомобиле с водителем">
+  <meta property="og:description" content="Персональные поездки по Санкт-Петербургу и Ленинградской области с водителем, апартаментами и продуманными маршрутами.">
+  <meta property="og:image" content="assets/hero-polo.webp">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="preload" href="assets/hero-polo.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "АвтоТурСПб",
+    "description": "Индивидуальные маршруты по Санкт-Петербургу и Ленинградской области на автомобиле с водителем.",
+    "email": "komarnitckii@yandex.ru",
+    "telephone": "+7 921 373 79 98",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Санкт-Петербург",
+      "addressRegion": "Санкт-Петербург",
+      "addressCountry": "RU"
+    },
+    "areaServed": ["Санкт-Петербург", "Ленинградская область"],
+    "priceRange": "72000-87000 RUB"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="АвтоТурСПб, на главную">
+        <svg class="brand-mark" viewBox="0 0 96 64" aria-hidden="true">
+          <path d="M13 48c17 6 48 6 70 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          <path d="M45 11v38M45 13 22 47h23M48 17l23 30H48" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M22 53c10 3 17 3 27 0 9-3 17-3 27 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-copy">
+          <strong>АвтоТурСПб</strong>
+          <span>Путешествуйте с комфортом</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#route-1">Маршрут №1</a>
+        <a href="#routes">Маршруты</a>
+        <a href="#services">Услуги</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header-contacts" aria-label="Контакты">
+        <a href="mailto:komarnitckii@yandex.ru">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+          komarnitckii@yandex.ru
+        </a>
+        <a href="tel:+79213737998">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 5.5 7.5c1 5.4 5.6 10 11 11L19 16l-3-3-2 1.8c-1.9-.9-3.5-2.5-4.3-4.3L11 8 8 5z"/></svg>
+          +7 921 373 79 98
+        </a>
+      </div>
+
+      <a class="header-button" href="#contacts">Связаться с нами</a>
+
+      <button class="menu-toggle" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация">
+      <a href="#route-1">Маршрут №1</a>
+      <a href="#routes">Другие маршруты</a>
+      <a href="#services">Дополнительные услуги</a>
+      <a href="#benefits">Почему выбирают нас</a>
+      <a href="#contacts">Контакты</a>
+      <a class="mobile-contact" href="tel:+79213737998">+7 921 373 79 98</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <h1 id="hero-title">Индивидуальные маршруты<br>на автомобиле с водителем</h1>
+          <p>по Санкт-Петербургу и Ленинградской области</p>
+          <div class="hero-benefits" aria-label="Ключевые преимущества">
+            <article>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 12 4l8 7v8H4z"/><path d="M9 19v-6h6v6"/></svg>
+              <span>Комфортные<br>апартаменты</span>
+            </article>
+            <article>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14l-2-5H7z"/><path d="M4 12v5h16v-5"/><circle cx="7" cy="17" r="1.5"/><circle cx="17" cy="17" r="1.5"/></svg>
+              <span>Автомобиль с водителем<br>(Volkswagen Polo...) </span>
+            </article>
+            <article>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              <span>Продуманные<br>маршруты</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section route-section" id="route-1" aria-labelledby="route-title">
+      <div class="container">
+        <div class="section-title">
+          <span></span>
+          <h2 id="route-title">Маршрут №1 (4 дня)</h2>
+          <span></span>
+        </div>
+
+        <div class="route-layout">
+          <article class="card provided-card">
+            <h3>Предоставляется:</h3>
+            <p class="provided-note">Трансфер (прибытие и отправление)</p>
+            <div class="provided-item">
+              <strong>1. Апартаменты - евродвушка, 55 кв.м., 5 мин. пешком до ж/д станции Сергиево.</strong>
+              <strong>Возможны варианты.</strong>
+              <div class="apartment-gallery">
+                <img src="assets/apt-kitchen.webp" width="320" height="230" alt="Кухня апартаментов" loading="lazy">
+                <img src="assets/apt-room.webp" width="320" height="230" alt="Комната апартаментов" loading="lazy">
+                <img src="assets/apt-bedroom.webp" width="320" height="230" alt="Спальня апартаментов" loading="lazy">
+              </div>
+            </div>
+            <div class="provided-item">
+              <strong>2. Авто с водителем на прокат <span>(9 часов подряд в сутки)</span></strong>
+              <p>Возможна аренда любого арендуемого авто в г. СПб.</p>
+              <img class="fleet-img" src="assets/polo-fleet.webp" width="800" height="400" alt="Автопарк Volkswagen Polo" loading="lazy">
+            </div>
+            <div class="provided-item">
+              <strong>3. Тур. Маршруты:</strong>
+              <p>Продуманные экскурсионные маршруты на каждый день.</p>
+            </div>
+          </article>
+
+          <article class="card schedule-card">
+            <div class="day">
+              <h3>1-й день - ознакомительная авто прогулка по городу. Посещение исторических достопримечательностей по вашему выбору (Эрмитаж, Исаакиевский собор, Юсуповский дворец...). Стрельна, Константиновский дворец.</h3>
+              <div class="thumb-grid">
+                <img src="assets/route-hermitage.webp" width="320" height="220" alt="Эрмитаж" loading="lazy">
+                <img src="assets/route-interior.webp" width="320" height="220" alt="Дворцовый интерьер" loading="lazy">
+                <img src="assets/route-strelna.webp" width="320" height="220" alt="Стрельна" loading="lazy">
+              </div>
+            </div>
+            <div class="day">
+              <h3>2-й день - Пушкин, Павловск ........</h3>
+              <div class="thumb-grid">
+                <img src="assets/route-pushkin.webp" width="320" height="220" alt="Пушкин" loading="lazy">
+                <img src="assets/route-pavlovsk.webp" width="320" height="220" alt="Павловск" loading="lazy">
+                <img src="assets/route-palace.webp" width="320" height="220" alt="Павильон в парке" loading="lazy">
+              </div>
+            </div>
+            <div class="day">
+              <h3>3-й день - Петергоф, Ломоносов.....</h3>
+              <div class="thumb-grid">
+                <img src="assets/route-peterhof.webp" width="320" height="220" alt="Петергоф" loading="lazy">
+                <img src="assets/route-lomonosov.webp" width="320" height="220" alt="Ломоносов" loading="lazy">
+                <img src="assets/route-harbor.webp" width="320" height="220" alt="Морской маршрут" loading="lazy">
+              </div>
+            </div>
+            <div class="day">
+              <h3>4-й день - Гатчина или Кронштадт</h3>
+              <div class="thumb-grid">
+                <img src="assets/route-gatchina.webp" width="320" height="220" alt="Гатчина" loading="lazy">
+                <img src="assets/route-kronstadt-cathedral.webp" width="320" height="220" alt="Морской Никольский собор в Кронштадте" loading="lazy">
+                <img src="assets/route-kronstadt-fort.webp" width="320" height="220" alt="Форт Александр в Кронштадте" loading="lazy">
+              </div>
+            </div>
+          </article>
+
+          <aside class="price-column" aria-label="Стоимость и контакты маршрута №1">
+            <div class="price-box">
+              <strong>76 000</strong>
+              <span>рублей</span>
+            </div>
+            <div class="card details-card">
+              <ul>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16H7z"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>
+                  <span>Экскурсии<br>не предоставляются</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/><circle cx="12" cy="12" r="9"/></svg>
+                  <span>Возможны любые<br>комбинации</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card contact-card">
+              <h3>Контакты:</h3>
+              <a href="mailto:komarnitckii@yandex.ru">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+                komarnitckii@yandex.ru
+              </a>
+              <a href="tel:+79213737998">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 5.5 7.5c1 5.4 5.6 10 11 11L19 16l-3-3-2 1.8c-1.9-.9-3.5-2.5-4.3-4.3L11 8 8 5z"/></svg>
+                +7 921 373 79 98
+              </a>
+              <a href="https://wa.me/79213737998" target="_blank" rel="noopener">
+                <img class="contact-icon" src="assets/logo-whatsapp.svg" width="20" height="20" alt="" aria-hidden="true">
+                WhatsApp: +7 921 373 79 98
+              </a>
+              <span>
+                <img class="contact-icon" src="assets/converted-2 1.svg" width="20" height="20" alt="" aria-hidden="true">
+                МАКС: +7 921 373 79 98
+              </span>
+              <a class="btn btn-primary" href="output/pdf/dogovor-marshrut-1.pdf" target="_blank" rel="noopener" data-contract="Маршрут №1 (4 дня)">Заключение договора</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="container driver-card" aria-labelledby="driver-title">
+      <img src="assets/driver-vadim.webp" width="520" height="520" alt="Ваш персональный водитель Вадим" loading="lazy">
+      <div class="driver-copy">
+        <h2 id="driver-title">Ваш персональный водитель</h2>
+        <p>Опытный, вежливый и пунктуальный. Отличное знание города и области. Безопасность и комфорт на протяжении всего путешествия - наш приоритет.</p>
+      </div>
+      <ul class="driver-features" aria-label="Качества водителя">
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 5 3.3 8.5 7 10 3.7-1.5 7-5 7-10V6z"/><path d="m9 12 2 2 4-5"/></svg>
+          Безопасность
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v6l4 2"/></svg>
+          Пунктуальность
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21c1.5-4 12.5-4 14 0"/></svg>
+          Индивидуальный подход
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="routes" aria-labelledby="routes-title">
+      <div class="container">
+        <div class="section-title">
+          <span></span>
+          <h2 id="routes-title">Другие маршруты</h2>
+          <span></span>
+        </div>
+        <div class="routes-grid">
+          <article class="card route-mini">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v15H5z"/><path d="M8 3v4M16 3v4M5 10h14"/></svg>
+            <h3>Маршрут №2 (3 дня)</h3>
+            <p>Маршрут №1 (минус один день)</p>
+            <strong>60 000 рублей</strong>
+            <a class="btn btn-primary" href="output/pdf/dogovor-marshrut-2.pdf" target="_blank" rel="noopener" data-contract="Маршрут №2 (3 дня)">Заключение договора</a>
+          </article>
+          <article class="card route-mini">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v15H5z"/><path d="M8 3v4M16 3v4M5 10h14"/></svg>
+            <h3>Маршрут №3</h3>
+            <p>Маршрут №1<br>(без предоставления апартаментов)</p>
+            <strong>61 000 рублей</strong>
+            <a class="btn btn-primary" href="output/pdf/dogovor-marshrut-3.pdf" target="_blank" rel="noopener" data-contract="Маршрут №3">Заключение договора</a>
+          </article>
+          <article class="custom-route">
+            <img src="assets/custom-route.webp" width="760" height="500" alt="Разводные мосты Санкт-Петербурга" loading="lazy">
+            <div>
+              <strong>Любые маршруты<br>по вашим пожеланиям!</strong>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-title">
+          <span></span>
+          <h2 id="services-title">Дополнительные услуги</h2>
+          <span></span>
+        </div>
+        <div class="services-grid">
+          <img class="night-img" src="assets/night-spb.webp" width="800" height="430" alt="Ночной Санкт-Петербург и разводные мосты" loading="lazy">
+          <article class="card service-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9h-9z"/><path d="M16 4v3M20 8h-3"/></svg>
+            <h3>Ночной СПб и ЛО</h3>
+            <p>Развод Дворцового моста, клубы, бары, кафе...</p>
+            <strong>4 часа - 15 000 рублей</strong>
+          </article>
+          <article class="card service-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14l-2-5H7z"/><path d="M4 12v5h16v-5"/><circle cx="7" cy="17" r="1.5"/><circle cx="17" cy="17" r="1.5"/></svg>
+            <h3>Трансфер</h3>
+            <p>Прибытие и отправление из аэропорта, вокзала или по вашему адресу.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section benefits-section" id="benefits" aria-labelledby="benefits-title">
+      <div class="container">
+        <div class="section-title">
+          <span></span>
+          <h2 id="benefits-title">Почему выбирают нас</h2>
+          <span></span>
+        </div>
+        <div class="benefits-grid">
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 21 8-10-4-6H8l-4 6z"/><path d="M4 11h16M8 5l4 16 4-16"/></svg>
+            <h3>Комфорт</h3>
+            <p>Современные автомобили и уютные апартаменты</p>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 3 6 6 .8-4.5 4.4 1 6.3L12 17.5 6.5 20.5l1-6.3L3 9.8 9 9z"/></svg>
+            <h3>Индивидуальный подход</h3>
+            <p>Маршруты под ваши пожелания</p>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 5 3.3 8.5 7 10 3.7-1.5 7-5 7-10V6z"/><path d="m9 12 2 2 4-5"/></svg>
+            <h3>Надежность</h3>
+            <p>Проверенные водители и безопасность</p>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <h3>Знание региона</h3>
+            <p>Лучшие места Санкт-Петербурга и Ленинградской области</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contact-layout">
+        <article class="contact-panel">
+          <h2 id="contacts-title">Свяжитесь с нами</h2>
+          <p>Мы подберём идеальный маршрут и ответим на все ваши вопросы.</p>
+          <a href="mailto:komarnitckii@yandex.ru">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+            komarnitckii@yandex.ru
+          </a>
+          <a href="tel:+79213737998">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 5.5 7.5c1 5.4 5.6 10 11 11L19 16l-3-3-2 1.8c-1.9-.9-3.5-2.5-4.3-4.3L11 8 8 5z"/></svg>
+            +7 921 373 79 98
+          </a>
+          <a href="https://wa.me/79213737998" target="_blank" rel="noopener">
+            <img class="contact-icon" src="assets/logo-whatsapp.svg" width="20" height="20" alt="" aria-hidden="true">
+            WhatsApp: +7 921 373 79 98
+          </a>
+          <span>
+            <img class="contact-icon" src="assets/converted-2 1.svg" width="20" height="20" alt="" aria-hidden="true">
+            МАКС: +7 921 373 79 98
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            Санкт-Петербург и Ленинградская область
+          </span>
+        </article>
+
+        <article class="contract-panel">
+          <h2>Договор оферты</h2>
+          <p>PDF открывается сразу с выбранным маршрутом внутри договора.</p>
+          <div class="contract-links">
+            <a href="output/pdf/dogovor-marshrut-1.pdf" target="_blank" rel="noopener">Маршрут №1</a>
+            <a href="output/pdf/dogovor-marshrut-2.pdf" target="_blank" rel="noopener">Маршрут №2</a>
+            <a href="output/pdf/dogovor-marshrut-3.pdf" target="_blank" rel="noopener">Маршрут №3</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© АвтоТурСПб. Все права защищены, 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
